@@ -4,6 +4,8 @@ The goal of PyFunnels is to create a collaborative code library which makes inte
 
 PyFunnels consists of multiple classes structured modularly so that additional tools and data points can be easily added and work independently of one another. The classes within the library can be thought of as a catalog of tools and methods to retrieve data. Not all data point methods are required for each tool, meaning a new tool can be added with only a single method. Ideally, all data points would be supported for each tool but this structure allows the functionality to grow organically and makes it easy to contribute code to the project. 
 
+![](name-of-giphy.gif)
+
 The library reduces the time it takes information security professionals to utilize output from tools. For example, consider the following workflow:
 1.	Collect data with tool one.
 2.	Collect data with tool two.
