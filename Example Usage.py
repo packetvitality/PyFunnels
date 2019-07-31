@@ -10,4 +10,6 @@ source_files = {
 #Create a PyFunnels object.
 PyF = PyFunnels(source_files)
 #Do something with it
-print(PyF.funnel("domains"))
+domains = PyF.funnel("domains"))
+for d in domains:
+    pass
