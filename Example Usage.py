@@ -8,8 +8,8 @@ source_files = {
     "nmap":"/path/to/file/nmap_results.xml"
 }
 #Create a PyFunnels object.
-PyF = PyFunnels(source_files)
+PyF = PyFunnels.Funnel(source_files)
 #Do something with it
-domains = PyF.funnel("domains"))
+domains = PyF.funnel_data("domains")
 for d in domains:
     pass
