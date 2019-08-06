@@ -1,4 +1,9 @@
 from PyFunnels import PyFunnels
+
+PyF = PyFunnels.Funnel()
+capabilities = PyF.get_capabilities()
+print(capabilities)
+
 #Specify the output file for each tool in a dictionary.
 source_files = {
    "spiderfoot":"/path/to/file/spiderfoot.db",
